@@ -1,38 +1,214 @@
-.App {
-  text-align: center;
-}
+/* Copy Writer CSS */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.root {
+  flex-grow: 1;
+  box-shadow: 20px;
+  margin-top: 60px;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(75,6,193,1) 0%, rgba(206,2,189,1) 100%);
+  overflow: hidden;
+  position: absolute;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image {
+height: 600px;
+float: right;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.brain {
+position: absolute;
+width: 100%;
+max-width: 700px;
+left: 46%;
+margin-top: -5%;
+}
+.heading {
+color: white;
+margin-left: 90px;
+margin-top: 110px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.head1 {
+  font-size: 100px;
+}
+.head2 {
+font-size: 60px;
+margin-top: -80px;
+}
+.paragraph {
   color: white;
+  margin-left:6%;
+  padding: 10px;
+  margin-top: -6%;
+  letter-spacing: 2.5px;
+  font-size: 22px;
+}
+.button {
+background: linear-gradient(to bottom, #23ffdb, #1b5dbf);
+border-radius: 50px;
+width:200px;
+height: 30px;
+padding: 10px;
+margin-top: 20px;
+margin-left: 6%;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
 }
 
+/* Responsive Queries */
+
+@media screen and (max-width: 600px) {
+.root {
+    display: flex;}
+.image {
+  height: 600px;
+  float: right;
+}
+.brain {
+  position: absolute;
+  width: 100%;
+  max-width: 700px;
+  left: 46%;
+  margin-top: -5%;
+    height: 300px;
+    margin-left: -240px;
+}
+.heading {
+  color: white;
+  margin-left: 90px;
+  margin-top: 110px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph {
+    margin-left: 15%;
+    font-size: 18px;
+}
+.head1 {
+    font-size: 100px;
+}
+.button {
+    margin-left: 15%;
+}
+.head2 {
+  font-size: 60px;
+  margin-top: -80px;
+}
+@media screen and (max-width: 500px) {
+.image {
+    height: 350px;}
+.brain {
+    height: 250px;
+    margin-left: -180px;
+}
+.heading {
+   margin-left: 10px;
+}
+.paragraph {
+    color: white;
+    margin-left:6%;
+    padding: 10px;
+    margin-top: -6%;
+    letter-spacing: 2.5px;
+    font-size: 22px;
+    margin-left: 5px;
+}
+.button {
+  background: linear-gradient(to bottom, #23ffdb, #1b5dbf);
+  border-radius: 50px;
+  width:200px;
+  height: 30px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+    margin-left: 5px;
+}
+
+/* Responsive Queries */
+
+@media screen and (max-width: 600px) {
+  .root {
+      display: flex;}
+  .image {
+      height: 450px;
+  margin-left: 20px;}
+  .brain {
+      height: 300px;
+      margin-left: -240px;
+  }
+  .paragraph {
+      margin-left: 15%;
+      font-size: 18px;
+  }
+  .button {
+      margin-left: 15%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .image {
+      height: 350px;}
+  .brain {
+      height: 250px;
+      margin-left: -180px;
+  }
+  .heading {
+     margin-left: 10px;
+  }
+  .paragraph {
+      margin-left: 5px;
+  }
+  .button {
+      margin-left: 5px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .image {
+      height: 340px;}
+  .brain {
+      height: 280px;
+      margin-left: -180px;}
+  .heading {
+      margin-left: -5px;}
+  .head1 {
+      font-size: 80px;}
+  .head2 {
+      font-size: 40px;
+      margin-top: -15%;
+      margin-left: 5px;
+      }    
+  .paragraph {
+      margin-left: -5px;
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .image {
+      height: 300px;}
+  .brain {
+      height: 280px;
+      margin-left: -165px;}
+  .paragraph {
+      margin-left: -5px;
+      margin-top: -25px;
+      font-size: 14px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .paragraph {
+      font-size: 12px;
+      margin-top: -15%;
+  }
+.paragraph {
+    font-size: 12px;
+    margin-top: -15%;
+}
 .App-link {
-  color: #61dafb;
+color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
+}
+/* End of Copy Writer CSS */}

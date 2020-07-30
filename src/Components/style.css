@@ -1,0 +1,416 @@
+/* First div CSS OF UxWriting */
+
+.container1 {
+    top: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #9e37b8, #662975);
+    overflow: hidden;
+    position: absolute;
+    height: 2500px;
+}
+.Ux-image {
+    height: 400px;
+    margin: 70px;
+}
+.heading1 {
+    float: right;
+    margin-top: -40%;
+    margin-right: 25%;
+    font-size: 70px;
+    color: white;
+}
+.UX-para {
+    float: right;
+    margin-top: -25%;
+    margin-right: 20px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+.lists {
+    float: right;
+    margin-top: -15%;
+    margin-right: 28%;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* Responsive Queries */
+
+@media screen and (max-width: 600px) {
+    .container1 {
+        top: 985px
+    }
+    .Ux-image {
+        height: 300px;
+        margin-left: 5%;
+      }   
+      .heading1 {
+        margin-top: -30%;  
+    }
+    .UX-para {
+        font-size: 20px;
+        margin-top: -20%;
+        margin-left: 25px;
+    }
+    .lists {
+        margin-top: 5px;
+        margin-right: 60%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container1 {
+        top: 890px
+    }
+    .Ux-image {
+        height: 250px;
+        margin-left: 5%;
+      }   
+}
+@media screen and (max-width: 450px) {
+    .container1 {
+        top: 790px
+    }
+    .Ux-image {
+        height: 220px;
+        margin-left: 5%;
+      }   
+}
+@media screen and (max-width: 410px) {
+    .container1 {
+        top: 750px
+    } 
+    .lists {
+        margin-right: 40%;
+    }
+}
+@media screen and (max-width: 390px) {
+    .Ux-image {
+        height: 200px;
+        margin-left: 5%;
+      }
+      .lists {
+        margin-right: 35%;
+    } 
+}
+@media screen and (max-width: 375px) {
+    .container1 {
+        top: 710px
+    }    
+}
+@media screen and (max-width: 365px) {
+    .Ux-image {
+        height: 190px;
+        margin-left: 5%;
+    }
+      .heading1 {
+        margin-right: 18%;
+    }
+    .UX-para {
+       margin-top: -35%;
+    }
+    .lists {
+        margin-right: 35%;
+    } 
+}
+
+/* End of first div */
+
+/* Second div of UXWriting */
+
+.web-image {
+    height: 400px;
+    float: right;
+}
+.heading2 {
+    font-size: 70px;
+    color: white;
+    margin-left: 60px;
+    margin-top: -60px;
+}
+.para2 {
+    width: 48%;
+    color: white;
+    margin-left: 60px;
+    margin-top: -60px;
+    font-size: 18px;
+}
+.lists2 {
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-left: 38px;
+    color: white;
+    letter-spacing: 1px;   
+}
+
+/* Responsive Queries */
+
+@media screen and (max-width: 600px) {
+    .web-image {
+        height: 300px;
+    }   
+    .para2 {
+        width: 80%;}
+}
+@media screen and (max-width: 560px) {
+    .heading2 {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .web-image {
+        height: 250px;
+        margin-right: 8%;
+    }   
+    .para2 {
+        width: 80%;}
+}
+@media screen and (max-width: 450px) {
+    .web-image {
+        height: 210px;
+        margin-right: 8%;
+    }   
+    .heading2 {
+        font-size: 50px;
+    }
+    .para2 {
+        width: 80%;}
+}
+@media screen and (max-width: 420px) {
+    .web-image {
+        height: 190px;
+        margin-right: 8%;
+    }   
+    .heading2 {
+        font-size: 40px;
+    }
+    .para2 {
+        width: 80%;
+        margin-top: -10%;
+    }
+}
+@media screen and (max-width: 390px) { 
+    .heading2 {
+        margin-left: 25px;
+    }
+    .para2 {
+        margin-left: 25px;
+        width: 90%;
+    }
+    .lists2 {
+        margin-left: 10px;
+    }
+}
+
+/* End of Second div of UxWriting */
+
+/* Case study */
+
+.casestudy {
+        height: 1100px;
+        background: linear-gradient(to right, #570091, #7522b6);
+        overflow: hidden;
+        position: absolute;
+}
+.mainHead {
+    margin-left: 32%;
+    font-size: 30px;
+    color: white;
+    background-color: #7522b6;
+    width: 21%;
+}
+.Chatimage {
+    margin-left: 15%;
+    margin-top: 5%;
+    height: 380px;
+    width: 60%;
+    opacity: 0.5;
+}
+.Heading1 {
+    display: block;
+    color:white;
+     margin-top: -22%;
+    margin-left: 27%;
+    font-size: 30px;
+    background-color: black;
+    width: 35%;
+    height: 120px;
+}
+.subHeading1 {
+    display: block;
+    color:white;
+    margin-top: -7%;
+    margin-left: 35%;
+    font-size: 25px;
+}
+.Chatimage2 {
+    margin-left: 15%;
+    margin-top: 13%;
+    height: 380px;
+    width: 60%;
+    opacity: 0.5;  
+}
+.Heading2 {
+    display: block;
+    color:white;
+     margin-top: -22%;
+    margin-left: 28%;
+    font-size: 30px;
+    background-color: black;
+    width: 32%;
+    height: 120px;
+}
+.subHeading2 {
+    display: block;
+    color:white;
+    margin-top: -7%;
+    margin-left: 35%;
+    font-size: 25px;
+} 
+
+/* Responsive Queries for Case Study */
+
+ @media screen and (max-width: 600px) {
+    .container {
+        margin-top: 2590px;
+    }
+    .mainHead {
+        width: 50%;
+        margin-left: 20%;
+    }
+    .Chatimage {
+        width: 80%;
+        height: 280px;
+        margin-left: 10%;
+    }
+    .Heading1 , .Heading2{
+        width: 70%;
+        height: 90px;
+        font-size: 25px;
+        margin-top: -38%;
+        margin-left: 90px;
+    }
+    .subHeading1 , .subHeading2{
+        margin-top: -15%;
+    }
+    .Chatimage2 {
+        width: 80%;
+        height: 280px;
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width: 560px) {
+    .container {
+        margin-top: 2620px;
+    }
+    .mainHead {
+        width: 70%;
+    }
+    .Heading1{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .container {
+        margin-top: 2660px;
+    }
+    .mainHead {
+        width: 70%;
+    }
+    .Heading1{
+        font-size: 21px;
+    }
+}
+@media screen and (max-width: 505px) {
+    .container {
+        margin-top: 2680px;}
+    .Heading2{
+            font-size: 21px;
+        }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        margin-top: 2500px;}
+}
+@media screen and (max-width: 485px) {
+    .container {
+        margin-top: 2565px;}
+}
+@media screen and (max-width: 450px) {
+    .container {
+        margin-top: 2350px;
+        height: 750px;
+    }
+    .Chatimage {
+        width: 80%;
+        height: 230px;
+    }
+    .Heading1 , .Heading2{
+        width: 65%;
+        height: 70px;
+        font-size: 16px;
+        margin-top: -42%;
+    }
+    .subHeading1 , .subHeading2{
+        margin-top: -15%;
+        font-size: 16px;
+    }
+    .Chatimage2 {
+        width: 80%;
+        height: 230px;
+        margin-top: 120px;
+    }    
+}
+@media screen and (max-width: 445px) {
+    .container {
+        margin-top: 2415px;}
+}
+@media screen and (max-width: 420px) {
+    .container {
+        margin-top: 2400px;}
+}
+@media screen and (max-width: 410px) {
+    .container {
+        margin-top: 2350px;
+        height: 800px;
+    }
+    .mainHead {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 390px) {
+    .mainHead {
+        margin-left: 35px;
+    }
+    .Heading1 , .Heading2{
+        margin-left: 18%;
+        height: 60px;
+        font-size: 14px;
+    }
+    .subHeading1 , .subHeading2{
+        margin-top: -15%;
+        font-size: 16px;
+    }
+    .Chatimage1, .Chatimage2 {
+        height: 200px;
+    } 
+    .Chatimage2 {
+        margin-top: 70px;
+    } 
+}
+@media screen and (max-width: 367px) {
+    .container {
+        margin-top: 2315px;}
+}
+@media screen and (max-width: 360px) {
+    .container {
+        margin-top: 2300px;}
+    .mainHead {
+        font-size: 25px;
+    }
+    .subHeading1 , .subHeading2{
+        margin-left: 28%;
+    }
+} 
+/* End of Case Study CSS */

@@ -1,0 +1,118 @@
+/* Footer CSS */
+
+.Footer {
+    margin-top: 2750px;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to right, #9e37b8, #662975);
+    overflow: hidden;
+    position: absolute;
+}
+.footer-para {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-left: 28%;
+    color: white;
+}
+.link {
+    margin-left: 32%;
+    color: white;
+    font-size: 20px;
+}
+.fb-icon {
+    margin-left: 40%;
+}
+.link-icon {
+    margin-left: 45%;
+    margin-top: -43px;
+}
+.footer-copywriter {
+    margin-top: 20px;
+    margin-left: 32%;
+    color: white;
+    font-size: 15px;
+}
+
+/* Responsive Queries for Footer */
+
+@media screen and (max-width: 600px) {
+    .Footer {
+        margin-top: 3440px;
+    }
+    .footer-para {
+        font-size: 25px;
+        margin-left: 15%;
+    }
+    .link {
+        margin-left: 20%;
+    }
+    .footer-copywriter {
+        margin-left: 20%;
+    }
+    .fb-icon {
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width: 530px) {
+    .Footer {
+        margin-top: 3510px;
+    }
+    .footer-para {
+        font-size: 20px;
+    }
+    .link {
+       font-size: 15px;
+    }
+    .footer-copywriter {
+       font-size: 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Footer {
+        margin-top: 3350px;
+    }
+}
+@media screen and (max-width: 485px) {
+    .Footer {
+        margin-top: 3410px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Footer {
+        margin-top: 3100px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .Footer {
+        margin-top: 3160px;
+    }
+    .footer-para {
+        font-size: 20px;
+        margin-left: 8%;
+    }
+    .link , .footer-copywriter{
+        margin-left: 8%;
+    }
+}
+@media screen and (max-width: 410px) {
+    .Footer {
+        margin-top: 3130px;
+    }
+    .footer-para {
+        font-size: 18px;
+        margin-left: 8%;
+    }
+    .fb-icon {
+        margin-left: 32%;
+    }
+}
+@media screen and (max-width: 390px) {
+    .Footer {
+        margin-top: 2950px;
+    }
+    .footer-para {
+        font-size: 16px;
+    }
+}
+
+/* End of Footer CSS*/
